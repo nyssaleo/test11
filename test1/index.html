@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+        <title>My Website</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r125/three.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+        <script src="https://unpkg.com/typewriter-effect/dist/core.js"></script>
+</head>
+<body>
+        <header>
+                <h1>My Website</h1>
+                <nav>
+                        <ul>
+                                <li><a href="#section1">Section 1</a></li>
+                                <li><a href="#section2">Section 2</a></li>
+                                <li><a href="#section3">Section 3</a></li>
+                                <li><a href="#section4">Section 4</a></li>
+                        </ul>
+                </nav>
+        </header>
+        <main>
+                <section id="section1">
+                        <h2>Section 1</h2>
+                        <canvas id="chart"></canvas>
+                </section>
+                <section id="section2">
+                        <h2>Section 2</h2>
+                        <div id="animation"></div>
+                </section>
+                <section id="section3">
+                        <h2>Section 3</h2>
+                        <div id="typewriter"></div>
+                </section>
+                <section id="section4">
+                        <h2>Section 4</h2>
+                        <form>
+                                <label for="feedback">Feedback:</label>
+                                <textarea id="feedback" name="feedback" rows="4" cols="50"></textarea>
+                                <button type="submit">Submit</button>
+                        </form>
+                </section>
+        </main>
+        <script src="script.js"></script>
+</body>
+</html>
